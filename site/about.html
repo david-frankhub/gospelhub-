@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="icon" type="image/png" href="favicon.png">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — GospelHub</title>
+<meta name="description" content="About GospelHub: your home for gospel music, videos and gospel news.">
+<meta property="og:title" content="About — GospelHub">
+<meta property="og:description" content="About GospelHub: your home for gospel music, videos and gospel news.">
+<meta property="og:image" content="https://gospelhub.com.ng/og-image.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://gospelhub.com.ng/about.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="GospelHub">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="About — GospelHub">
+<meta name="twitter:description" content="About GospelHub: your home for gospel music, videos and gospel news.">
+<meta name="twitter:image" content="https://gospelhub.com.ng/og-image.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0B0B0D; --bg-raised:#141416; --bg-card:#18181B;
+    --text:#F2EFE9; --text-dim:#8A8780; --gold:#D9A441;
+    --wine:#2B3F9E; --wine-bright:#4A63D9; --line: rgba(242,239,233,0.08);
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{background:var(--bg); color:var(--text); font-family:'Inter',sans-serif; -webkit-font-smoothing:antialiased;}
+  h1,h2,h3{font-family:'Fraunces',serif; font-weight:600; letter-spacing:-0.01em;}
+  a{color:inherit; text-decoration:none;}
+  ::selection{background:var(--gold); color:#0B0B0D;}
+
+  nav{
+    display:flex; align-items:center; justify-content:space-between;
+    padding:22px 5%; position:sticky; top:0;
+    background:rgba(11,11,13,0.85); backdrop-filter:blur(10px);
+    z-index:100; border-bottom:1px solid var(--line);
+  }
+  .logo{font-family:'Fraunces',serif; font-size:22px; font-weight:700; display:flex; align-items:baseline; gap:2px;}
+  .logo .dot{color:var(--gold);}
+  .btn{padding:10px 20px; border-radius:100px; font-size:13px; font-weight:600; border:1px solid var(--line); background:transparent; color:var(--text);}
+  .btn-gold{background:var(--gold); color:#0B0B0D; border:1px solid var(--gold);}
+
+  .wrap{max-width:720px; margin:0 auto; padding:60px 5% 100px;}
+  .eyebrow{font-family:'JetBrains Mono',monospace; font-size:12px; letter-spacing:0.12em; text-transform:uppercase; color:var(--gold); margin-bottom:16px;}
+  h1{font-size:clamp(30px,4.5vw,46px); line-height:1.1; margin-bottom:28px;}
+  .lead{font-size:17px; color:var(--text-dim); line-height:1.7; margin-bottom:40px;}
+  .body p{font-size:15.5px; line-height:1.85; color:#D8D5CE; margin-bottom:22px;}
+
+  .pillars{display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin:40px 0;}
+  .pillar{background:var(--bg-card); border:1px solid var(--line); border-radius:14px; padding:22px 18px;}
+  .pillar h3{font-size:15px; margin-bottom:8px;}
+  .pillar p{font-size:13px; color:var(--text-dim); line-height:1.5;}
+
+  /* ===== Founder card ===== */
+  .founder-card{
+    display:flex; gap:18px; align-items:flex-start;
+    background:var(--bg-card); border:1px solid var(--line); border-radius:16px;
+    padding:26px 22px; margin-top:48px;
+  }
+  .founder-avatar{
+    width:60px; height:60px; border-radius:50%; flex-shrink:0;
+    overflow:hidden;
+    border:2px solid var(--gold);
+  }
+  .founder-avatar img{width:100%; height:100%; object-fit:cover; display:block;}
+  .founder-label{font-family:'JetBrains Mono',monospace; font-size:10.5px; letter-spacing:0.08em; text-transform:uppercase; color:var(--gold); margin-bottom:6px;}
+  .founder-name{font-size:17px; font-weight:600; margin-bottom:6px;}
+  .founder-bio{font-size:13.5px; color:var(--text-dim); line-height:1.65;}
+
+  @media (max-width:640px){
+    .pillars{grid-template-columns:1fr;}
+    .founder-card{flex-direction:column; align-items:center; text-align:center;}
+  }
+</style>
+</head>
+<body>
+
+  <nav>
+    <div class="logo">GospelHub<span class="dot">.</span></div>
+    <a href="index.html" class="btn btn-gold">Home</a>
+  </nav>
+
+  <div class="wrap">
+    <div class="eyebrow">About Us</div>
+    <h1>Music, videos, and gist — one home for the gospel scene.</h1>
+    <p class="lead">GospelHub is a platform built for gospel music, video, and entertainment news, giving artists, creators, and fans one place to share and discover what's happening in the gospel space.</p>
+
+    <div class="pillars">
+      <div class="pillar">
+        <h3>🎵 Music</h3>
+        <p>Stream and download gospel songs from established and independent artists.</p>
+      </div>
+      <div class="pillar">
+        <h3>🎬 Video</h3>
+        <p>Watch worship sessions, music videos, and live performances.</p>
+      </div>
+      <div class="pillar">
+        <h3>📰 News</h3>
+        <p>Stay updated with entertainment news from the gospel community.</p>
+      </div>
+    </div>
+
+    <div class="body">
+      <p>We started GospelHub with a simple belief: gospel content deserves a dedicated home — not scattered across platforms not built for it. Whether it's a brand-new single, a live worship recording, or the latest gist from the scene, GospelHub brings it together in one place.</p>
+      <p>We're just getting started, and we're building this with our community — artists, listeners, and everyone who believes gospel music and entertainment deserve a real spotlight.</p>
+    </div>
+
+    <div class="founder-card">
+      <div class="founder-avatar"><img src="favicon.png" alt="David Frank"></div>
+      <div>
+        <div class="founder-label">Founder &amp; Developer</div>
+        <div class="founder-name">David Frank</div>
+        <div class="founder-bio">David hails from Takum, Taraba State, Nigeria, and is a Computer Science graduate of Federal University Wukari. He's also an AfroGospel artiste, building GospelHub as a home for the gospel music, video, and entertainment community.</div>
+      </div>
+    </div>
+  </div>
+<a href="submit.html" class="submit-fab" aria-label="Click here to upload your song, video or gist on GospelHub">
+  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 5v14M5 12h14"/>
+  </svg>
+  <span>CLICK HERE TO UPLOAD YOUR SONG/VIDEO/GIST ON MYGOSPELHUB</span>
+</a>
+
+<style>
+.submit-fab {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: linear-gradient(135deg, #D9A441, #B8842E);
+  color: #0a0a0a;
+  padding: 12px 14px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 11.5px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  line-height: 1.3;
+  box-shadow: 0 -2px 12px rgba(0, 0, 0, 0.3);
+}
+.submit-fab svg { flex-shrink: 0; }
+
+@media (max-width: 420px) {
+  .submit-fab {
+    font-size: 10.5px;
+    padding: 10px 10px;
+  }
+}
+</style>
+<script src="site-nav.js?v=2"></script>
+</body>
+</html>
