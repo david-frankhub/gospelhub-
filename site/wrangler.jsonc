@@ -6,6 +6,6 @@
   "assets": {
     "directory": "./",
     "binding": "ASSETS",
-    "run_worker_first": ["/api/*", "/song/*", "/video/*", "/news/*", "/sitemap.xml"]
+    "run_worker_first": ["/api/*", "/song", "/song.html", "/song/*", "/video", "/video.html", "/video/*", "/news-post", "/news-post.html", "/news/*", "/sitemap.xml"]
   }
 }
